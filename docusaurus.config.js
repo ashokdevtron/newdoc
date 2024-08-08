@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Devtron Resource Center',
-  tagline: 'Master seamless software deployment using K8s with ease. Tutorials, insights, and documents to help you deliver excellence.',
+  tagline: 'Master seamless software deployment using K8s with ease using Devtron',
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here

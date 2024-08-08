@@ -60,10 +60,26 @@ const config = {
     ],
   ],
 
+  plugins: ["@chatwoot/docusaurus-plugin"],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
+      chatwoot: {
+        websiteToken: "sYogv7et97xtwCv6kSzM2KNL",
+        baseURL: "https://app.chatwoot.com",  // optional
+        enableInDevelopment: false,  // optional
+        chatwootSettings: {
+          hideMessageBubble: false,
+          position: "right", // This can be left or right
+          locale: "en", // Language to be set
+          useBrowserLanguage: false, // Set widget language from user's browser
+          darkMode: "auto", // [light, auto]
+          type: "expanded_bubble",
+          launcherTitle: "Chat with us",
+        }
+      },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: '',

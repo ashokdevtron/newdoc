@@ -60,7 +60,7 @@ const config = {
     ],
   ],
 
-  plugins: ["@chatwoot/docusaurus-plugin"],
+  plugins: ["@chatwoot/docusaurus-plugin", "docusaurus-lunr-search"],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */

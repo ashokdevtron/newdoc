@@ -77,7 +77,7 @@ const config = {
           useBrowserLanguage: false, // Set widget language from user's browser
           darkMode: "auto", // [light, auto]
           type: "expanded_bubble",
-          launcherTitle: "Chat with us",
+          launcherTitle: "Chat",
         }
       },
       image: 'img/docusaurus-social-card.jpg',

@@ -1,5 +1,7 @@
 # Create Your Plugin
 
+**Available on**: [![](https://devtron-public-asset.s3.us-east-2.amazonaws.com/images/elements/EnterpriseTag.svg)](https://devtron.ai/pricing)
+
 ## Introduction
 
 You can create CI/CD plugins using APIs. It can be any of the following: CI plugin or CD plugin.

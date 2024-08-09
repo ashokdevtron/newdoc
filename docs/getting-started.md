@@ -1,4 +1,7 @@
-# Getting Started
+---
+sidebar_label: Getting Started
+title: Getting Started with Devtron
+---
  
 This section includes information about the minimum requirements you need to install and use **Devtron**.
 

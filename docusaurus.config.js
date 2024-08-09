@@ -62,6 +62,17 @@ const config = {
 
   plugins: ["@chatwoot/docusaurus-plugin", "docusaurus-lunr-search"],
 
+  scripts: [
+    {
+      async: true,
+      src: 'https://www.feedbackrocket.io/sdk/v1.2.js',
+      'data-fr-id': 'jcASiiXbB7wqF4iQEjoyh',
+      'data-fr-theme': 'dynamic',
+      'data-fr-title':"Give Feedback",
+      'data-fr-placeholder': "Let us know your thoughts about this page", 
+    }
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -102,9 +113,12 @@ const config = {
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/devtron-labs/devtron',
-            label: 'GitHub',
+            type: 'html',
             position: 'right',
+            value:
+              `<a href=# class=navbar__link data-fr-widget>
+                Page feedback
+              </a>`
           },
         ],
       },

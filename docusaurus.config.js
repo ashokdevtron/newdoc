@@ -115,7 +115,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Docs',
                 to: '/docs/getting-started',
               },
             ],
@@ -143,6 +143,10 @@ const config = {
               {
                 label: 'GitHub',
                 href: 'https://github.com/devtron-labs/devtron',
+              },
+              {
+                label: 'YouTube',
+                href: 'https://www.youtube.com/@devtronL',
               },
             ],
           },

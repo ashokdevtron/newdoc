@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Focus on Innovation',
-    Svg: require('@site/static/img/innovation.svg').default,
+    Svg: require('@site/static/img/innovate.svg').default,
     description: (
       <>
         Concentrate on developing innovative features while we handle
